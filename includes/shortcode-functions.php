@@ -565,7 +565,7 @@ if( !function_exists('symple_heading_shortcode') ) {
 		if ( $icon_left !== '' && $icon_left !== 'none' ) $output .= '<i class="symple-heading-icon-left fa fa-'. $icon_left .'"></i>';
 			$output .= $title;
 		if ( $icon_right !== '' && $icon_right !== 'none' ) $output .= '<i class="symple-heading-icon-right fa fa-'. $icon_right .'"></i>';
-		$output .= '</'.$type.'></span>';
+		$output .= '</span></'.$type.'>';
 		
 		return $output;
 	}
