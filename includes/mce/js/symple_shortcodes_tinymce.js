@@ -365,7 +365,7 @@
 										value: ''
 									} ],
 									onsubmit: function( e ) {
-										editor.insertContent( '[symple_heading style="' + e.data.headingStyle + '" title="' + e.data.headingTitle + '" type="' + e.data.headingType + '" font_size="' + e.data.headingFontSize + '" text_align="' + e.data.headingTextAlign + '" margin_top="' + e.data.headingMarginTop + '" margin_bottom="' + e.data.headingMarginBottom + '" color="' + e.data.buttonText + '" icon_left="' + e.data.headingLeftIcon + '" icon_right="' + e.data.headingRightIcon + '"]' );
+										editor.insertContent( '[symple_heading style="' + e.data.headingStyle + '" title="' + e.data.headingTitle + '" type="' + e.data.headingType + '" font_size="' + e.data.headingFontSize + '" text_align="' + e.data.headingTextAlign + '" margin_top="' + e.data.headingMarginTop + '" margin_bottom="' + e.data.headingMarginBottom + '" color="' + e.data.headingColor + '" icon_left="' + e.data.headingLeftIcon + '" icon_right="' + e.data.headingRightIcon + '"]' );
 									}
 								});
 							}
